@@ -1,6 +1,7 @@
 img {
     width: 400px;
 	float: left;
+	clear: both;
 	
 	
 }
@@ -8,8 +9,9 @@ img {
 h1 { 
     float : right;
 	clear: right;
+	margin-left: 10px;
+	
 	
 }
-
 
 
