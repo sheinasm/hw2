@@ -1,9 +1,15 @@
 img {
     width: 400px;
 	float: left;
+	
+	
 }
 
-h1 {
-	float: right;
+h1 { 
+    float : right;
+	clear: right;
+	
 }
+
+
 
