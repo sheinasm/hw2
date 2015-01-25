@@ -5,36 +5,50 @@
 .container {
     background: rgba(0, 255, 245, 0.32);
     margin: auto;
-    max-width: 800px;
+    max-width: 700px;
     padding: 15px;
+	overflow: hidden;
+	
 }
 
 .content {
     background: rgba(113, 255, 0, 0.69);
     min-height: 500px;
+	width: 500px;
+	float: left;
+	
 }
 
 .sidebar {
     background: rgb(208, 157, 255);
     min-height: 500px;
-    float: right;
-    width: 175px;
+    width: 170px;
+	float: right;
+	
 }
 
 .page-heading {
     background: rgba(255, 0, 0, 0.79);
+	width: 123px;
+	float: left;
+
 }
 
 .post-date {
+	float: right;
 
 }
 
 .image {
     background: gray;
     height: 200px;
-    width: 300px;
+	width: 300px;
+	float: right;
+	clear: both;
+	
 }
 
 article {
-
+	width: 500px;
+	clear: both;
 }
